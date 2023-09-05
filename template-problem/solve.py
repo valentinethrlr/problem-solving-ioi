@@ -25,7 +25,7 @@ if platform.python_version_tuple()[:2] == ('3', '11'):
 
 from collections import namedtuple
 
-Problem = namedtuple(Problem, [])
+Problem = namedtuple('Problem', [])
 
     
 
