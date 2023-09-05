@@ -24,5 +24,5 @@ vscode:
     - almenon.arepl
     - ms-python.python
     - littlefoxteam.vscode-python-test-adapter
-    - ms-azuretools.vscode-docker
+    # - ms-azuretools.vscode-docker
     - laike9m.cyberbrain
