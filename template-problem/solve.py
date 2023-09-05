@@ -8,21 +8,12 @@ code should therefore remain pretty basic to run flawlessly on france-ioi
 
 '''
 
-##################################################################
-# read input from file tests/test1.in as if type on the keyboard
-# This shouldn't run on France-IOI
-# replace this with the name of your test file
-test_file = 'test1.in'
-
-import sys, os, platform
-# only if executed on Python 3.11 (gitpod), will be false on france-ioi
-if platform.python_version_tuple()[:2] == ('3', '11'):
-    os.chdir(os.path.dirname(__file__))
-    sys.stdin = open(os.path.join('tests', test_file), "r")
-##################################################################
-
-
-
+try:
+    from soiutils import load_test
+    load_test('test1')
+except:
+    pass
+    
 from collections import namedtuple
 
 Problem = namedtuple('Problem', [])
@@ -40,7 +31,7 @@ def parse_input():
     return Problem()
 
 def solve(problem):
-    result = []
+    result = [1, 0, 1]
     
     return result
         
