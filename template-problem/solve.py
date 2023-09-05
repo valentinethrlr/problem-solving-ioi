@@ -8,11 +8,13 @@ code should therefore remain pretty basic to run flawlessly on france-ioi
 
 '''
 
+######################## Tests ###############################
 try:
     from soiutils import load_test
     load_test('test1')
 except:
     pass
+######################## Tests ###############################
     
 from collections import namedtuple
 
