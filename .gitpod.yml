@@ -6,7 +6,8 @@ tasks:
       python -m pip install -U black
   - name: Configure git
     command: curl https://gist.githubusercontent.com/donnerc/fc0312cc3431d9b3e675/raw/821a897e08e8e983a8fdf8add57e6b8cded5ed40/git-config.sh | sh
-
+  - name: autosave
+    command: source autosave.sh
 
 image: gitpod/workspace-python-3.11
 
