@@ -25,7 +25,13 @@ def parse_input():
     '''
     problem = {}
     
-    nb_livres, nb_jours = [int(x) for x in input()]
+    nb_livres, nb_jours = [int(x) for x in input().split(' ')]
+    
+    for _ in range(nb_jours):
+        nb_clients = int(input())
+        
+        
+        
     
     print(input())
     
