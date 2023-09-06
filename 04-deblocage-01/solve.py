@@ -23,7 +23,16 @@ def parse_input():
     well structured.
     
     '''
-    
+    line, row = (int(x) for x in input().split(" "))
+    camping = []
+
+    for i in range (row):
+        camping += [[int(x) for x in input().split(" ")]]
+        
+    problem = {}
+    problem["row"] = row
+    problem["line"] = line
+    problem["map"] = camping
         
     return problem
 
