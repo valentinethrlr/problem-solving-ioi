@@ -16,13 +16,6 @@ except:
     pass
 ######################## Tests ###############################
     
-from collections import namedtuple
-
-Problem = namedtuple('Problem', [])
-
-    
-
-
 def parse_input():
     '''
     
@@ -30,7 +23,9 @@ def parse_input():
     well structured.
     
     '''
-    return Problem()
+    p
+    
+    return problem
 
 def solve(problem):
     result = [1, 0, 1]
