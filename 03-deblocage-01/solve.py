@@ -54,10 +54,7 @@ def parse_input():
 def solve(problem):
     result = []
     
-    import json
-    
-    
-    print(json.dumps(problem, indent=4))
+   
     
     return result
         
