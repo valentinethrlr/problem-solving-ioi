@@ -30,7 +30,8 @@ def parse_input():
     for _ in range(nb_jours):
         nb_clients = int(input())
         
-        
+        for i_client in range(nb_clients):
+            
         
     
     print(input())
