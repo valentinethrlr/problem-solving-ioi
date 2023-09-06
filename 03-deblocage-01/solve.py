@@ -23,12 +23,16 @@ def parse_input():
     well structured.
     
     '''
-    p
+    problem = {}
+    
+    nb_livres, nb_jours = [int(x) for x in input()]
+    
+    print(input())
     
     return problem
 
 def solve(problem):
-    result = [1, 0, 1]
+    result = []
     
     return result
         
