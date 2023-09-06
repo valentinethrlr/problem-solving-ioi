@@ -41,32 +41,15 @@ def parse_input():
             i_livre, duree = [int(x) for x in input().split(' ')]
             reservation = {
                 'i_livre': i_livre,
-                'i_livre': i_livre,
+                'duree': duree,
             }
+            jour['reservations'].append(reservation)
             
-'''
-problem = {
-    'nb_clients': ...,
-    'nb_livres': ...,
-    jours: [
-        {
-            'nb_clients': ...,
-            'reservations': [
-                {
-                    'i_livre': ...,
-                    'duree': ...
-                }
-            ]
-        }
-    ]
-}
-'''
-            
+        problem['jours'].append(jour)
         
-    
-    print(input())
-    
     return problem
+
+
 
 def solve(problem):
     result = []
