@@ -31,6 +31,7 @@ def parse_input():
         nb_clients = int(input())
         
         for i_client in range(nb_clients):
+            i_livre, duree = [int(x) for x in input().split(' ')]
             
         
     
