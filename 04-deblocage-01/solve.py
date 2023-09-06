@@ -23,29 +23,7 @@ def parse_input():
     well structured.
     
     '''
-    problem = {}
     
-    nb_livres, nb_jours = [int(x) for x in input().split(' ')]
-    problem['nb_livres'] = nb_livres
-    problem['nb_jours'] = nb_jours
-    problem['jours'] = []
-    
-    for _ in range(nb_jours):
-        nb_clients = int(input())
-        
-        jour = {
-            'reservations': []
-        }
-        
-        for i_client in range(nb_clients):
-            i_livre, duree = [int(x) for x in input().split(' ')]
-            reservation = {
-                'i_livre': i_livre,
-                'duree': duree,
-            }
-            jour['reservations'].append(reservation)
-            
-        problem['jours'].append(jour)
         
     return problem
 
