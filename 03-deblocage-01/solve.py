@@ -11,7 +11,7 @@ code should therefore remain pretty basic to run flawlessly on france-ioi
 ######################## Tests ###############################
 try:
     from soiutils import load_test
-    load_test('test1')
+    load_test('test0')
 except:
     pass
 ######################## Tests ###############################
@@ -53,6 +53,11 @@ def parse_input():
 
 def solve(problem):
     result = []
+    
+    import json
+    
+    
+    print(json.dumps(problem, indent=4))
     
     return result
         
